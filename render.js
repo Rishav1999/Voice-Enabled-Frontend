@@ -9,7 +9,7 @@ function searchPhoto()
   // var apigClient = apigClientFactory.newClient({
   //                    apiKey: "kvE0yKAvXGvZ7U0v91miZ1XvGR97Yx+5PcC9tuUq"
   //       });
-  var apigClient = apigClientFactory.newClient();
+  var apigClient = apigClientFactory.newClient({apiKey: "NTIxcxAGr835v9nwbsZCu5UQKbVI5TTL2ybvXKIW"});
 
     var user_message = document.getElementById('note-textarea').value;
 
